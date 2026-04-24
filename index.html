@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mckayla Davis | Applied Math Researcher</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <span class="logo">M. Davis</span>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#cv">CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="section">
+        <div class="profile-container">
+            <img src="mephoto.png" alt="Mckayla Davis" class="profile-img">
+            <h1>Mckayla Davis</h1>
+            <p class="subtitle">MS Applied Mathematics | BYU</p>
+            <a href="mailto:mckayla@math.byu.edu" class="btn-email">mckayla@math.byu.edu</a>
+        </div>
+    </header>
+
+    <section id="about" class="section bg-light">
+        <div class="container">
+            <h2>Background</h2>
+            <p>I am an Applied Mathematics Master’s student at Brigham Young University, specializing in the intersection of <strong>Deep Learning, Bayesian Inference, and Physiological Sensing</strong>. My work focuses on leveraging GPT-based architectures to transform how we understand cardiac health through PPG data.</p>
+            <p>As a researcher and TA for the ACME program, I bridge the gap between complex mathematical theory and scalable computational implementation.</p>
+        </div>
+    </section>
+
+    <section id="research" class="section">
+        <div class="container">
+            <h2>Research & Innovation</h2>
+            <div class="card">
+                <h3>Cardiac Health Sensing & GPT Architectures</h3>
+                <p>Developing transformer-based models in PyTorch to predict heart rate and generate ECG signals. My work involves managing large-scale datasets (9,000+ files) across university supercomputers and optimizing models for training stability.</p>
+                <span class="tag">Bayesian Inference</span> <span class="tag">PyTorch</span> <span class="tag">Slurm</span>
+            </div>
+            <div class="card">
+                <h3>Patent: Beer-Lambert Inversion</h3>
+                <p>U.S. Provisional Patent Application No. 63/612,791. Developed techniques to solve nonlinear systems relating absorbed light to physiologically significant parameters.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section">
+        <p>&copy; 2026 Mckayla Davis | Built with Math & Pink Accents</p>
+    </footer>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js');
+        }
+    </script>
+</body>
+</html>
